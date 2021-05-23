@@ -30,9 +30,18 @@
   text-anchor: middle;
 }
 
+.stateText:hover{
+  display: none;
+}
+
 .stateCircle {
   fill: #89bdd3;
+  /* opacity: 0.5; */
   stroke: #e3e3e3;
+}
+
+.stateCircle:hover{
+  stroke: #000;
 }
 
 .chart {
