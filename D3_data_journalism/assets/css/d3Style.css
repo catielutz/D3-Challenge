@@ -1,5 +1,6 @@
 .aText {
   font-family: sans-serif;
+  font-weight: bold;
   font-size: 16px;
   text-anchor: middle;
 }
@@ -28,6 +29,7 @@
   font-family: sans-serif;
   fill: #fff;
   text-anchor: middle;
+  font-size: xx-small;
 }
 
 .stateText:hover{
@@ -36,7 +38,7 @@
 
 .stateCircle {
   fill: #89bdd3;
-  /* opacity: 0.5; */
+  opacity: 0.75;
   stroke: #e3e3e3;
 }
 
@@ -55,7 +57,7 @@
   line-height: 1;
   line-height: 1.5em;
   color: #fff;
-  text-align: center;
+  text-align: left;
   text-transform: capitalize;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 4px;
